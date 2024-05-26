@@ -19,8 +19,10 @@ Welcome to the Student Housing Connection App! This application is designed to c
 
 
 ## Frontend Setup
-1. Navigate to the frontend directory.
-
+1. Clone the repository
+```bach
+git clone https://github.com/yourusername/student-housing-connection.git
+```
 2. Install frontend dependencies:
 ```bach
 npm install
@@ -31,15 +33,13 @@ npm start
 ```
 
 ## Usage
-1. Run the backend server first:
+1. Run the backend server first from the backend directory:
 ```bach
-cd backend
 nodemon server.js
 ```
 
-2. Run the frontend app using Expo:
+2. Run the frontend app using Expo from frontend directory:
 ```bach
-cd ../frontend
 npm start
 ```
 
